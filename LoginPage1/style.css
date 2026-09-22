@@ -1,0 +1,90 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+.container{
+    margin:185px;
+    display:flex;
+    flex-direction: column;
+    align-content:center;
+    align-items:center;
+    border:2px solid aquamarine;
+    border-color: aquamarine;
+    gap:5px;
+}
+.card{
+    display:flex;
+    flex-direction: column;
+    align-content:center;
+    align-items:center;
+    border-color: aquamarine;
+}
+.card-header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+}
+.card-content{
+    gap:5px;
+}
+.social-img{
+    margin:15px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    align-content:center;
+    gap:15px;
+}
+.img-f{
+    color:white;
+    background-color:gray;
+    padding:12px;
+    width:5px 5px;
+    border-radius: 55%;
+}
+.img-G{
+    color:white;
+    background-color:tomato;
+    padding:10px;
+    width:5px 5px;
+    border-radius: 55%;
+}
+.img-in{
+    color:white;
+    background-color: gray;
+    padding:10px;
+    width:5px 5px;
+    border-radius: 55%;
+}
+.Email{
+    margin:5px;
+    border-radius: 16px;
+    padding:5px;
+    color: aqua;
+    background-color: blanchedalmond;
+    width:fit-content;
+    outline:none;
+}
+.Password{
+    margin:5px;
+    border-radius:16px;
+    padding:5px;
+    color:aquamarine;
+    background-color:blanchedalmond;
+    outline:none;
+    
+}
+.card-footer{
+    margin:5px;
+    color:white;
+    background-color: rgb(61, 69, 106);
+    border-radius:15px;
+    padding:10px;
+}
+.sign-in{
+    color:rgb(61, 69, 106);
+    background-color: rgb(61, 69, 106);
+    width:fit-content;
+}
